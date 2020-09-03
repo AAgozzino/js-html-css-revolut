@@ -71,3 +71,10 @@ body{
   display: block;
   height: 50px;
 }
+
+.show{
+  display: block;
+}
+.active{
+  display: block;
+}
