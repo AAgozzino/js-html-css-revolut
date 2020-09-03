@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.pos_relative{
+  position: relative;
+}
+
 ul.menu-inline{
   height: 50px;
 }
@@ -43,6 +47,12 @@ ul.menu-inline{
   border-radius: 50px;
 }
 
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left:0;
+}
 /* TIPOGRAFIA */
 body{
   font-family: 'Roboto', sans-serif;
