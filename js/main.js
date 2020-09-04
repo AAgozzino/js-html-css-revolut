@@ -1,14 +1,8 @@
 $(document).ready(function(){
   // apro il menu all'hover sul link
-  $(".open-menu").mouseover(
+  $(".open-menu").hover(
     function(){
-      $(this).children(".dropdown-menu").addClass("show")
-    }
-  );
-
-  $(".open-menu").mouseout(
-    function(){
-      $(this).children(".dropdown-menu").removeClass("show")
+      $(this).children(".dropdown-menu").toggle()
     }
   );
 
